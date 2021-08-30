@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter2_STL-常用容器/1.string容器/07-string插入和删除.cpp
+iostream
+-
+string
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_02.dir/Chapter2_函数提高/02-函数占位参数.cpp.o -o Chapter2_02 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter8_02.dir/Chapter8_结构体/02-结构体数组.cpp.o -o Chapter8_02 

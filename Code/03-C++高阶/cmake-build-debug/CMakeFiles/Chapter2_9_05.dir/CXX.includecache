@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter2_STL-常用容器/9.map与multimap容器/05-map容器排序.cpp
+map
+-
+iostream
+-
+

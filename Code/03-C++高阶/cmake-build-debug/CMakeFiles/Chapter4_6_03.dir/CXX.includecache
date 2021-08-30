@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter4_STL-常用算法/6.常用集合算法/03-set_difference.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+

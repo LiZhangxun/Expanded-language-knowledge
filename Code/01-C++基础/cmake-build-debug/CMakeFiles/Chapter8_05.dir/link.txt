@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter8_05.dir/Chapter8_结构体/05-结构体作为函数参数.cpp.o -o Chapter8_05 

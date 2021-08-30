@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter2_STL-常用容器/8.set与multiset容器/03-set插入和删除.cpp
+set
+-
+iostream
+-
+

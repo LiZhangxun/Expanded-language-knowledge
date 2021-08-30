@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_6_01.dir/Chapter2_STL-常用容器/6.queue容器/01-queue常用接口.cpp.o -o Chapter2_6_01 

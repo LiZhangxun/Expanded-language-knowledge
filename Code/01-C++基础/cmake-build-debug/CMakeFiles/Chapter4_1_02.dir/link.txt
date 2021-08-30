@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter4_1_02.dir/Chapter4_程序流程结构/1.选择结构/02-三目运算符.cpp.o -o Chapter4_1_02 

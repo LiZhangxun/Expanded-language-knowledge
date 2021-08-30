@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter7_06.dir/Chapter7_指针/06-指针和函数.cpp.o -o Chapter7_06 

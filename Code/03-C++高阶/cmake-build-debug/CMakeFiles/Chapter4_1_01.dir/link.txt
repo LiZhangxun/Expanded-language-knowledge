@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter4_1_01.dir/Chapter4_STL-常用算法/1.常用遍历算法/01-for_each.cpp.o -o Chapter4_1_01 

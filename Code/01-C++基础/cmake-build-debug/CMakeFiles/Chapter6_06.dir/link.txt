@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter6_06.dir/Chapter6_函数/06-函数的分文件编写/main.cpp.o CMakeFiles/Chapter6_06.dir/Chapter6_函数/06-函数的分文件编写/swap.cpp.o -o Chapter6_06 

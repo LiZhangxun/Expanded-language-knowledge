@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter1_模板-泛型编程/2.类模板/08-类模板与友元.cpp
+iostream
+-
+string
+-
+typeinfo
+-
+

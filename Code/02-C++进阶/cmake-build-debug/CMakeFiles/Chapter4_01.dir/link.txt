@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter4_01.dir/Chapter4_文件操作/01-文本写文件.cpp.o -o Chapter4_01 

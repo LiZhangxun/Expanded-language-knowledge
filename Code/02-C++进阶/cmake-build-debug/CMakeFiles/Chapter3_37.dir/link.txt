@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_37.dir/Chapter3_类和对象/6.继承/07-多继承语法.cpp.o -o Chapter3_37 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_08.dir/Chapter2_数据类型/08-数据的输入.cpp.o -o Chapter2_08 

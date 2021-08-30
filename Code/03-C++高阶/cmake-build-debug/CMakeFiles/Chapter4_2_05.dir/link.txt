@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter4_2_05.dir/Chapter4_STL-常用算法/2.常用查找算法/05-count.cpp.o -o Chapter4_2_05 

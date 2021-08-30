@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_6_04.dir/Chapter3_类和对象/6.继承/04-继承中构造和析构顺序.cpp.o -o Chapter3_6_04 

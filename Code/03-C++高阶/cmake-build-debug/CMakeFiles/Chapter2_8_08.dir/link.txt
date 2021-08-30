@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_8_08.dir/Chapter2_STL-常用容器/8.set与multiset容器/08-set容器排序之自定义数据类型.cpp.o -o Chapter2_8_08 

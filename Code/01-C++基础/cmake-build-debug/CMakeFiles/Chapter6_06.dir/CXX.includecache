@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/01-C++基础/Chapter6_函数/06-函数的分文件编写/include/swap.h
+iostream
+-
+
+/home/lizhangxun/CLion/Clion_Project/Code/01-C++基础/Chapter6_函数/06-函数的分文件编写/main.cpp
+include/swap.h
+/home/lizhangxun/CLion/Clion_Project/Code/01-C++基础/Chapter6_函数/06-函数的分文件编写/include/swap.h
+
+/home/lizhangxun/CLion/Clion_Project/Code/01-C++基础/Chapter6_函数/06-函数的分文件编写/swap.cpp
+include/swap.h
+/home/lizhangxun/CLion/Clion_Project/Code/01-C++基础/Chapter6_函数/06-函数的分文件编写/include/swap.h
+

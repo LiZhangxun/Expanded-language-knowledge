@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_23.dir/Chapter3_类和对象/4.友元/02-类做友元.cpp.o -o Chapter3_23 

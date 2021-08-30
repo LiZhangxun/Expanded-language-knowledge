@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_04.dir/Chapter3_STL-函数对象/04-算术仿函数.cpp.o -o Chapter3_04 

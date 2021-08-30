@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter5_01.dir/Chapter5_数组/1.一维数组/01-一维数组定义方式.cpp.o -o Chapter5_01 

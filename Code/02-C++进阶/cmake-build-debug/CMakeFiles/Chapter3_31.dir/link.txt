@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_31.dir/Chapter3_类和对象/6.继承/01-继承的基本语法.cpp.o -o Chapter3_31 

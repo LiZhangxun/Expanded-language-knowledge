@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_7_04.dir/Chapter2_STL-常用容器/7.list容器/04-list插入和删除.cpp.o -o Chapter2_7_04 

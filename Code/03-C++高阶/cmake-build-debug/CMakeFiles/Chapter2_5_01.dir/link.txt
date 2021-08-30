@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_5_01.dir/Chapter2_STL-常用容器/5.stack容器/01-stack常用接口.cpp.o -o Chapter2_5_01 

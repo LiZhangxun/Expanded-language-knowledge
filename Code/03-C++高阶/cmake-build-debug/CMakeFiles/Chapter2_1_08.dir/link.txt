@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_1_08.dir/Chapter2_STL-常用容器/1.string容器/08-string子串.cpp.o -o Chapter2_1_08 

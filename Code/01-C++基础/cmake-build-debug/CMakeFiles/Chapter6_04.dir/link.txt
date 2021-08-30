@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter6_04.dir/Chapter6_函数/04-函数的常见样式.cpp.o -o Chapter6_04 

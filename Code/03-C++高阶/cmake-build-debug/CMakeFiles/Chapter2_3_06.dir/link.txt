@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_3_06.dir/Chapter2_STL-常用容器/3.deque容器/06-deque数据排序.cpp.o -o Chapter2_3_06 

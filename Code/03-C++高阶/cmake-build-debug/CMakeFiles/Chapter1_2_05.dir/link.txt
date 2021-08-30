@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter1_2_05.dir/Chapter1_模板-泛型编程/2.类模板/05-类模板与继承.cpp.o -o Chapter1_2_05 

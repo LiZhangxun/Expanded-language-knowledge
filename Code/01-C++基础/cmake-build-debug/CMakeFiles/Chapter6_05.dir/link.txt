@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter6_05.dir/Chapter6_函数/05-函数的声明.cpp.o -o Chapter6_05 

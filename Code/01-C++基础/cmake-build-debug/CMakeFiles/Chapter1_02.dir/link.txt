@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter1_02.dir/Chapter1_初识C++/02-单行与多行注释.cpp.o -o Chapter1_02 

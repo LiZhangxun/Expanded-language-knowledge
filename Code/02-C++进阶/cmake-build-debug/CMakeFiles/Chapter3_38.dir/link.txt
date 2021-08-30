@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_38.dir/Chapter3_类和对象/6.继承/08-菱形继承.cpp.o -o Chapter3_38 

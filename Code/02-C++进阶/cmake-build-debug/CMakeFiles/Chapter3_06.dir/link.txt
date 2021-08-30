@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_06.dir/Chapter3_类和对象/1.封装/06-设计一个学生类案例.cpp.o -o Chapter3_06 

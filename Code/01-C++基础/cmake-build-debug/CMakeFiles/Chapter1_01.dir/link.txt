@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter1_01.dir/Chapter1_初识C++/01-第一个C++程序.cpp.o -o Chapter1_01 

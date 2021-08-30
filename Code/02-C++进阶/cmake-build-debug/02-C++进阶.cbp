@@ -1,0 +1,2887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="02-C++进阶"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_08">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_08/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_07">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_07/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_07">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_07/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_08">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_08/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_1_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_1_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_1_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter4_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter4_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter4_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_07">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_07"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_07/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_07" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_07/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_7_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_7_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_7_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_08">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_08"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_08/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_08" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_08/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_04">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter1_04/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter1_04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter1_04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_4_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_4_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_4_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_09">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_09"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_2_09/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_2_09" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_2_09/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_01">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_3_01/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_3_01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_3_01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_03">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_03"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_03/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_03" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_03/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_06">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_06"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_5_06/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_5_06" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_5_06/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_02">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2_02/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter2_02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2_02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_05">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_05"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter3_6_05/fast">
+				<Option output="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Chapter3_6_05" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter3_6_05/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/01-引用的基本使用.cpp">
+			<Option target="Chapter1_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/02-引用的注意事项.cpp">
+			<Option target="Chapter1_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/03-引用做函数参数.cpp">
+			<Option target="Chapter1_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/04-引用做函数返回值.cpp">
+			<Option target="Chapter1_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/05-引用的本质.cpp">
+			<Option target="Chapter1_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter1_引用/06-常量的引用.cpp">
+			<Option target="Chapter1_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter2_函数提高/01-函数默认参数.cpp">
+			<Option target="Chapter2_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter2_函数提高/02-函数占位参数.cpp">
+			<Option target="Chapter2_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter2_函数提高/03-函数重载的类型.cpp">
+			<Option target="Chapter2_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter2_函数提高/04-函数重载的注意事项.cpp">
+			<Option target="Chapter2_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/01-struct和class的区别.cpp">
+			<Option target="Chapter3_1_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/02-封装的意义1.cpp">
+			<Option target="Chapter3_1_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/03-封装的意义2.cpp">
+			<Option target="Chapter3_1_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/04-将成员属性设置为私有.cpp">
+			<Option target="Chapter3_1_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/05-设计一个学生类lzx的.cpp">
+			<Option target="Chapter3_1_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/06-设计一个学生类案例.cpp">
+			<Option target="Chapter3_1_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/07-设计点和圆的关系.cpp">
+			<Option target="Chapter3_1_07"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/1.封装/08-设计立方体类.cpp">
+			<Option target="Chapter3_1_08"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/01-构造函数和析构函数.cpp">
+			<Option target="Chapter3_2_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/02-构造函数的分类及调用.cpp">
+			<Option target="Chapter3_2_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/03-构造函数调用规则.cpp">
+			<Option target="Chapter3_2_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/04-拷贝构造函数调用时机.cpp">
+			<Option target="Chapter3_2_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/05-深拷贝与浅拷贝.cpp">
+			<Option target="Chapter3_2_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/06-初始化列表.cpp">
+			<Option target="Chapter3_2_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/07-类对象作为类成员.cpp">
+			<Option target="Chapter3_2_07"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/08-静态成员函数.cpp">
+			<Option target="Chapter3_2_08"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/2.对象的初始化和清理/09-静态成员变量.cpp">
+			<Option target="Chapter3_2_09"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/3.C++的对象模型和this指针/01-成员变量与成员函数.cpp">
+			<Option target="Chapter3_3_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/3.C++的对象模型和this指针/02-this指针概念.cpp">
+			<Option target="Chapter3_3_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/3.C++的对象模型和this指针/03-空指针访问成员函数.cpp">
+			<Option target="Chapter3_3_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/3.C++的对象模型和this指针/04-const修饰成员函数.cpp">
+			<Option target="Chapter3_3_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/4.友元/01-全局函数做友元.cpp">
+			<Option target="Chapter3_4_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/4.友元/02-类做友元.cpp">
+			<Option target="Chapter3_4_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/4.友元/03-成员函数做友元.cpp">
+			<Option target="Chapter3_4_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/01-加号运算符重载.cpp">
+			<Option target="Chapter3_5_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/02-左移运算符重载.cpp">
+			<Option target="Chapter3_5_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/03-递增运算符重载.cpp">
+			<Option target="Chapter3_5_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/04-赋值运算符重载.cpp">
+			<Option target="Chapter3_5_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/05-关系运算符重载.cpp">
+			<Option target="Chapter3_5_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/5.运算符重载/06-函数调用运算符重载.cpp">
+			<Option target="Chapter3_5_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/01-继承的基本语法.cpp">
+			<Option target="Chapter3_6_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/02-继承方式.cpp">
+			<Option target="Chapter3_6_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/03-继承中的对象模型.cpp">
+			<Option target="Chapter3_6_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/04-继承中构造和析构顺序.cpp">
+			<Option target="Chapter3_6_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/05-继承同名成员处理方式.cpp">
+			<Option target="Chapter3_6_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/06-继承同名静态成员处理方式.cpp">
+			<Option target="Chapter3_6_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/07-多继承语法.cpp">
+			<Option target="Chapter3_6_07"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/6.继承/08-菱形继承.cpp">
+			<Option target="Chapter3_6_08"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/01-多态的基本概念.cpp">
+			<Option target="Chapter3_7_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/02-多态案例一-计算器类.cpp">
+			<Option target="Chapter3_7_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/03-纯虚函数和抽象类.cpp">
+			<Option target="Chapter3_7_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/04-多态案例二-制作饮品.cpp">
+			<Option target="Chapter3_7_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/05-虚析构和纯虚析构.cpp">
+			<Option target="Chapter3_7_05"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter3_类和对象/7.多态/06-多态案例三-电脑组装.cpp">
+			<Option target="Chapter3_7_06"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter4_文件操作/01-文本写文件.cpp">
+			<Option target="Chapter4_01"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter4_文件操作/02-文本读文件.cpp">
+			<Option target="Chapter4_02"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter4_文件操作/03-二进制写文件.cpp">
+			<Option target="Chapter4_03"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/Chapter4_文件操作/04-二进制读文件.cpp">
+			<Option target="Chapter4_04"/>
+		</Unit>
+		<Unit filename="/home/lizhangxun/CLion/Clion_Project/Code/02-C++进阶/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

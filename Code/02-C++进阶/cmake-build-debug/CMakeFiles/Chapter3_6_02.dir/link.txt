@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_6_02.dir/Chapter3_类和对象/6.继承/02-继承方式.cpp.o -o Chapter3_6_02 

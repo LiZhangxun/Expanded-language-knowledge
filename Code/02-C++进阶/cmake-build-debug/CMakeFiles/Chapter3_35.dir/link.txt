@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_35.dir/Chapter3_类和对象/6.继承/05-继承同名成员处理方式.cpp.o -o Chapter3_35 

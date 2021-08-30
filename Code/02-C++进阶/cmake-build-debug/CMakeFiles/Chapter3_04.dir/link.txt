@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_04.dir/Chapter3_类和对象/1.封装/04-将成员属性设置为私有.cpp.o -o Chapter3_04 

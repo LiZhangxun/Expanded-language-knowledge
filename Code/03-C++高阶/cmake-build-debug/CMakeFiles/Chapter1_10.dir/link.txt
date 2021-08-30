@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter1_10.dir/Chapter1_模板-泛型编程/2.类模板/04-类模板对象做函数参数.cpp.o -o Chapter1_10 

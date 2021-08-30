@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter1_模板-泛型编程/2.类模板/07-类模板分文件编写/include/person.hpp
+iostream
+-
+string
+-
+
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter1_模板-泛型编程/2.类模板/07-类模板分文件编写/main.cpp
+iostream
+-
+include/person.hpp
+/home/lizhangxun/CLion/Clion_Project/Code/03-C++高阶/Chapter1_模板-泛型编程/2.类模板/07-类模板分文件编写/include/person.hpp
+

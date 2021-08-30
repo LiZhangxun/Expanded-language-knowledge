@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_2_06.dir/Chapter3_类和对象/2.对象的初始化和清理/06-初始化列表.cpp.o -o Chapter3_2_06 

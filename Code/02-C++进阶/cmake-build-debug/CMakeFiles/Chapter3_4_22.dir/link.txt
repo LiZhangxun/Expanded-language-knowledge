@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter3_4_22.dir/Chapter3_类和对象/4.友元/01-全局函数做友元.cpp.o -o Chapter3_4_22 

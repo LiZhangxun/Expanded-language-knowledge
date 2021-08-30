@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter7_05.dir/Chapter7_指针/05-指针和数组.cpp.o -o Chapter7_05 

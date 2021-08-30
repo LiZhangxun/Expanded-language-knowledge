@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Chapter2_2_01.dir/Chapter2_STL-常用容器/2.vector容器/01-vector存放内置数据类型.cpp.o -o Chapter2_2_01 
