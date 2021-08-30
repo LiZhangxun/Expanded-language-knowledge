@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/pig_1.png</file>
+        <file>res/pig_2.png</file>
+        <file>res/pig_head.png</file>
+        <file>res/xqg1.wav</file>
+        <file>res/backg.jpg</file>
+        <file>res/backg2.jpg</file>
+        <file>res/backg4.jpg</file>
+        <file>res/aixin.png</file>
+        <file>res/mario.gif</file>
+        <file>res/pig_head2.png</file>
+        <file>res/cjml.jpg</file>
+    </qresource>
+</RCC>

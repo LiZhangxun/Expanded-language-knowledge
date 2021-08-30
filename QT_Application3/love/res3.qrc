@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res3/所念皆星河 - CMJ 00_00_30-00_01_30.wav</file>
+        <file>res3/cjml.wav</file>
+        <file>res3/iloveyou.png</file>
+    </qresource>
+</RCC>
