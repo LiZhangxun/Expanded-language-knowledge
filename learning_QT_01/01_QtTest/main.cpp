@@ -1,9 +1,6 @@
-#include "mywidget.h"
-
-//QApplication应用程序类
+#include "mywidget.h" //头文件和类名一样
+#include <QApplication>//QApplication应用程序类
 //Qt头文件没有.h
-//头文件和类名一样
-#include <QApplication>
 
 int main(int argc, char *argv[])
 {

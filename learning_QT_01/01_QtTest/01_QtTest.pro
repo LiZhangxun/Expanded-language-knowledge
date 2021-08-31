@@ -4,14 +4,14 @@
 #
 #-------------------------------------------------
 
-#模块
+#QT包含的模块(1)core --> 核心模块;(2)gui --> 图形界面模块
 QT       += core gui
 
 #高于4版本，添加 QT += widgets ，为了兼容Qt4
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 #应用程序的名字
-TARGET = mike
+TARGET = LZX
 
 #指定makefile的类型, app
 TEMPLATE = app
