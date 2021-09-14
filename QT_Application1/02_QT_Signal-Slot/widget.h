@@ -20,10 +20,10 @@ public:
 private:
     Ui::Widget *ui;
 
-    Teacher*zt;
-    Student*st;
+    Teacher*zt; //老师对象的指针
+    Student*st; //学生对象的指针
 
-    void classisover();
+    void classisover(); //下课函数
 };
 
 #endif // WIDGET_H

@@ -21,31 +21,44 @@
 myWidget::myWidget(QWidget *parent): QWidget(parent)//初始化列表,用parent初始化QWidget
 {
     //创建一个按钮
-    QPushButton*btn=new QPushButton;
-    //btn->show();以顶层方式弹出窗口控件
+    QPushButton *btn=new QPushButton;
+
+    //以顶层方式弹出窗口控件
+    //btn->show();
+
     //设置父亲
     btn->setParent(this);
+
     //设置文字
     btn->setText("德玛西亚");//隐式类型转换const char* ->const Qstring&text
+
     //移动位置
     btn->move(100,100);
 
     //第二种创建(按照你控件的大小创建了窗口）
     QPushButton*btn2 = new QPushButton("孙悟空",this);
+
     //移动位置
     btn2->move(100,150);
+
     //重新指定按钮大小
     btn2->resize(50,50);
+
     //重新指定窗口大小
     this->resize(600,400);//或者不写this->，直接写resize(600,400)
+
     //设置窗口标题
     this->setWindowTitle("第一个项目");
+
+    //窗口位置
+    this->move(600,300);
+
     //限制窗口大小(用户无法进行拖拽)
     this->setFixedSize(600,400);
 
     //创建一个自己的按钮对象
     Mypushbutton*mybtn=new Mypushbutton;
-    mybtn->setText("我自己的按钮");
+    mybtn->setText("My Close");
     mybtn->move(200,0);
     mybtn->setParent(this);//设置到对象树中
 

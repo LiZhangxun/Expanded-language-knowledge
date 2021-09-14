@@ -51,9 +51,11 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../06_Layout/main.cpp \
-		../06_Layout/mainwindow.cpp moc_mainwindow.cpp
+		../06_Layout/mainwindow.cpp qrc_res.cpp \
+		moc_mainwindow.cpp
 OBJECTS       = main.o \
 		mainwindow.o \
+		qrc_res.o \
 		moc_mainwindow.o
 DIST          = ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/common/unix.conf \
@@ -192,6 +194,7 @@ DIST          = ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/qt_config.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/spec_post.prf \
+		../06_Layout/.qmake.stash \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/toolchain.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -361,6 +364,7 @@ Makefile: ../06_Layout/06_Layout.pro ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/qt_config.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/toolchain.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -381,6 +385,7 @@ Makefile: ../06_Layout/06_Layout.pro ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/yacc.prf \
 		../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/lex.prf \
 		../06_Layout/06_Layout.pro \
+		../06_Layout/res.qrc \
 		../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Widgets.prl \
 		../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Gui.prl \
 		../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Core.prl
@@ -522,6 +527,7 @@ Makefile: ../06_Layout/06_Layout.pro ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/qt_config.prf:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux-g++/qmake.conf:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/exclusive_builds.prf:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/toolchain.prf:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/default_pre.prf:
@@ -542,6 +548,7 @@ Makefile: ../06_Layout/06_Layout.pro ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/linux
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/yacc.prf:
 ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/lex.prf:
 ../06_Layout/06_Layout.pro:
+../06_Layout/res.qrc:
 ../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Widgets.prl:
 ../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Gui.prl:
 ../../../Qt5.9.2/5.9.2/gcc_64/lib/libQt5Core.prl:
@@ -559,6 +566,7 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
+	$(COPY_FILE) --parents ../06_Layout/res.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents ../../../Qt5.9.2/5.9.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../06_Layout/mainwindow.h $(DISTDIR)/
 	$(COPY_FILE) --parents ../06_Layout/main.cpp ../06_Layout/mainwindow.cpp $(DISTDIR)/
@@ -586,8 +594,24 @@ check: first
 
 benchmark: first
 
-compiler_rcc_make_all:
+compiler_rcc_make_all: qrc_res.cpp
 compiler_rcc_clean:
+	-$(DEL_FILE) qrc_res.cpp
+qrc_res.cpp: ../06_Layout/res.qrc \
+		../../../Qt5.9.2/5.9.2/gcc_64/bin/rcc \
+		../06_Layout/Image/Sunny.jpg \
+		../06_Layout/Image/Luffy.png \
+		../06_Layout/Image/up.png \
+		../06_Layout/Image/down.png \
+		../06_Layout/Image/mario.gif \
+		../06_Layout/Image/OnePiece.png \
+		../06_Layout/Image/butterfly1.png \
+		../06_Layout/Image/Frame.jpg \
+		../06_Layout/Image/LuffyQ.png \
+		../06_Layout/Image/butterfly.png \
+		../06_Layout/Image/sunny.png
+	/home/lizhangxun/Qt5.9.2/5.9.2/gcc_64/bin/rcc -name res ../06_Layout/res.qrc -o qrc_res.cpp
+
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
@@ -720,7 +744,7 @@ compiler_yacc_impl_make_all:
 compiler_yacc_impl_clean:
 compiler_lex_make_all:
 compiler_lex_clean:
-compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
+compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
 
 ####### Compile
 
@@ -942,14 +966,63 @@ mainwindow.o: ../06_Layout/mainwindow.cpp ../06_Layout/mainwindow.h \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qtabwidget.h \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qicon.h \
 		ui_mainwindow.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QAction \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qaction.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qactiongroup.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QApplication \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qapplication.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/qcoreapplication.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/qeventloop.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qguiapplication.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qinputmethod.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QButtonGroup \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qbuttongroup.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QGridLayout \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qgridlayout.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qlayout.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qlayoutitem.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qboxlayout.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QHBoxLayout \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QHeaderView \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qheaderview.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractitemview.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qframe.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/qitemselectionmodel.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qstyleoption.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qvalidator.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qslider.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractslider.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qstyle.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qtabbar.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qrubberband.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QLabel \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qlabel.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QLineEdit \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qlineedit.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qtextcursor.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qtextformat.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qpen.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtGui/qtextoption.h \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QPushButton \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qpushbutton.h \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qabstractbutton.h \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QSpacerItem \
+		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QWidget \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QDialog \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qdialog.h \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/QMessageBox \
 		../../../Qt5.9.2/5.9.2/gcc_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../06_Layout/mainwindow.cpp
+
+qrc_res.o: qrc_res.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_res.o qrc_res.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp

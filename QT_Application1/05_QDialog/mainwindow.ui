@@ -20,14 +20,15 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>28</height>
+     <height>31</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
     <property name="title">
      <string>文件</string>
     </property>
-    <addaction name="actionnew"/>
+    <addaction name="action_new"/>
+    <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -44,10 +45,10 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionnew"/>
+   <addaction name="action_new"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionnew">
+  <action name="action_new">
    <property name="text">
     <string>新建</string>
    </property>

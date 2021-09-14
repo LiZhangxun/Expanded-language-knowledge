@@ -1,7 +1,7 @@
 #include "mypushbutton.h"
 #include <QtDebug>
 
-Mypushbutton::Mypushbutton(QWidget *parent) :QPushButton(parent)
+Mypushbutton::Mypushbutton(QPushButton *parent) :QPushButton(parent)
 {
     qDebug()<<"我的按钮类构造调用";
 }

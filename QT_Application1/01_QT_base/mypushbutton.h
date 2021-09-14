@@ -6,7 +6,7 @@ class Mypushbutton : public QPushButton
 {
     Q_OBJECT
 public:
-    explicit Mypushbutton(QWidget *parent = nullptr);
+    explicit Mypushbutton(QPushButton *parent = nullptr);
     ~Mypushbutton();
 signals:
 

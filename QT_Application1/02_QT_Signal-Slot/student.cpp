@@ -9,6 +9,8 @@ void Student::treat()
 {
    qDebug()<<"请老师吃饭";
 }
+
+//重载版本
 void Student::treat(QString foodName)
 {
     //QString->char *先转成QByteArray(.toUtf8()),再转char*;

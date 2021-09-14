@@ -14,6 +14,9 @@
 // 帮助文档: F1
 // 自动对齐: ctrl + i
 
+
+//对象树:当指定了父亲之后,析构函数会从上至下逐一释放
+
 MyWidget::MyWidget(QWidget *parent)
     : QWidget(parent) //初始化列表
 {

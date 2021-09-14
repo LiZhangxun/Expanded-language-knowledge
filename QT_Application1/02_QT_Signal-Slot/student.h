@@ -17,7 +17,7 @@ public slots:
     //可以有参数，可以发生重载
     void treat();
 
-    void treat(QString foodName);
+    void treat(QString foodName);//重载版本
 };
 
 #endif // STUDENT_H

@@ -26,7 +26,7 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionnew;
+    QAction *action_new;
     QWidget *centralWidget;
     QMenuBar *menuBar;
     QMenu *menu;
@@ -39,14 +39,14 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
         MainWindow->resize(400, 300);
-        actionnew = new QAction(MainWindow);
-        actionnew->setObjectName(QStringLiteral("actionnew"));
+        action_new = new QAction(MainWindow);
+        action_new->setObjectName(QStringLiteral("action_new"));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 400, 28));
+        menuBar->setGeometry(QRect(0, 0, 400, 31));
         menu = new QMenu(menuBar);
         menu->setObjectName(QStringLiteral("menu"));
         menu_2 = new QMenu(menuBar);
@@ -61,8 +61,9 @@ public:
 
         menuBar->addAction(menu->menuAction());
         menuBar->addAction(menu_2->menuAction());
-        menu->addAction(actionnew);
-        mainToolBar->addAction(actionnew);
+        menu->addAction(action_new);
+        menu->addSeparator();
+        mainToolBar->addAction(action_new);
 
         retranslateUi(MainWindow);
 
@@ -72,7 +73,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        actionnew->setText(QApplication::translate("MainWindow", "\346\226\260\345\273\272", Q_NULLPTR));
+        action_new->setText(QApplication::translate("MainWindow", "\346\226\260\345\273\272", Q_NULLPTR));
         menu->setTitle(QApplication::translate("MainWindow", "\346\226\207\344\273\266", Q_NULLPTR));
         menu_2->setTitle(QApplication::translate("MainWindow", "\347\274\226\350\276\221", Q_NULLPTR));
     } // retranslateUi
