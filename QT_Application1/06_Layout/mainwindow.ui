@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>登陆窗口</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/Image/OnePiece.png</normaloff>:/Image/OnePiece.png</iconset>
+  </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="1" column="0" colspan="3">

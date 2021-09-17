@@ -1,11 +1,13 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include <QDebug>
+
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
+
     //点击获取，获取到控件当前值
     connect(ui->btn_get,&QPushButton::clicked,[=](){
         qDebug()<<ui->widget->getNum();

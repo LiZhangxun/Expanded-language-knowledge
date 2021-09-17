@@ -6,9 +6,11 @@ Smallwidget::Smallwidget(QWidget *parent) :
     ui(new Ui::Smallwidget)
 {
     ui->setupUi(this);
+
     //QSpinBox移动，Qslider跟着移动
     void (QSpinBox:: *spsignal)(int)=&QSpinBox::valueChanged;
     connect(ui->spinBox,spsignal,ui->horizontalSlider,&QSlider::setValue);
+
     //Qslider滑动,QSpinbox跟着改变
     connect(ui->horizontalSlider,&QSlider::valueChanged,ui->spinBox,&QSpinBox::setValue);
 }

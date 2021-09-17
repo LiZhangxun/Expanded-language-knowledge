@@ -9,6 +9,7 @@ Widget::Widget(QWidget *parent) :
 
     //设置默认定位
     ui->stackedWidget->setCurrentIndex(0);
+
     //栈控件使用
     connect(ui->btn1,&QPushButton::clicked,[=](){
         ui->stackedWidget->setCurrentIndex(0);
@@ -30,7 +31,7 @@ Widget::Widget(QWidget *parent) :
         ui->comboBox->setCurrentText("拖拉机");
     });
     //利用qlabel显示图片
-       ui->label->setPixmap(QPixmap(":/Image/down.png"));
+       ui->label_2->setPixmap(QPixmap(":/Image/down.png"));
 
     //利用qlabel显示动态图片gif
     QMovie *movie=new QMovie(":/Image/mario.gif");

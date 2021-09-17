@@ -4,7 +4,7 @@
 mylabel::mylabel(QWidget *parent) : QLabel(parent)
 {
     //设置鼠标追踪状态
-    setMouseTracking(true);//不需要鼠标点击就可以实现,要把下面的if去掉
+    setMouseTracking(true);//不需要鼠标点击就可以实现,要打印信息的话,把下面的if去掉,不需要判断鼠标左键或右键
 }
 //鼠标进入事件
 void mylabel::enterEvent(QEvent *event)
@@ -20,8 +20,7 @@ void mylabel::leaveEvent(QEvent *event)
 //鼠标按下
 void mylabel::mousePressEvent(QMouseEvent *ev)
 {
-
-    //当鼠标左键按下  提示信息
+    //当鼠标左键按下,出现提示信息
     if( ev->button() ==  Qt::LeftButton)
     {
         QString str = QString( "鼠标按下了 x = %1   y = %2  globalX = %3 globalY = %4 " ).arg(ev->x()).arg(ev->y()).arg(ev->globalX()).arg(ev->globalY());
@@ -32,7 +31,7 @@ void mylabel::mousePressEvent(QMouseEvent *ev)
 //鼠标释放
 void mylabel::mouseReleaseEvent(QMouseEvent *ev)
 {
-
+    //当鼠标左键按下,出现提示信息
     if( ev->button() ==  Qt::LeftButton)
     {
     QString str = QString( "鼠标释放了 x = %1   y = %2  globalX = %3 globalY = %4 " ).arg(ev->x()).arg(ev->y()).arg(ev->globalX()).arg(ev->globalY());

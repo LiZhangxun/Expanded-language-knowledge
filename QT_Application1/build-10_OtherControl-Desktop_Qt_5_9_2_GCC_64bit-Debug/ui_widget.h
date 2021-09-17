@@ -16,13 +16,16 @@
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDateEdit>
 #include <QtWidgets/QDateTimeEdit>
+#include <QtWidgets/QDial>
 #include <QtWidgets/QDoubleSpinBox>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QSlider>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QTabWidget>
@@ -57,27 +60,42 @@ public:
     QPushButton *pushButton_10;
     QWidget *page_4;
     QToolButton *toolButton;
-    QWidget *page_5;
+    QWidget *widget;
+    QPushButton *pushButton_11;
     QWidget *page_8;
     QTabWidget *tabWidget;
     QWidget *tab;
     QWidget *tab_2;
     QWidget *tab_3;
+    QWidget *tab_4;
     QPushButton *btn1;
     QPushButton *btn2;
     QPushButton *btn3;
-    QComboBox *comboBox;
-    QPushButton *select;
-    QSpinBox *spinBox;
-    QDoubleSpinBox *doubleSpinBox;
     QTimeEdit *timeEdit;
     QDateEdit *dateEdit;
     QDateTimeEdit *dateTimeEdit;
     QScrollBar *horizontalScrollBar;
     QScrollBar *verticalScrollBar;
-    QSlider *horizontalSlider;
     QLabel *label;
     QLabel *movie;
+    QWidget *widget1;
+    QHBoxLayout *horizontalLayout;
+    QSpacerItem *horizontalSpacer_3;
+    QSpinBox *spinBox;
+    QSpacerItem *horizontalSpacer;
+    QDoubleSpinBox *doubleSpinBox;
+    QSpacerItem *horizontalSpacer_2;
+    QSlider *horizontalSlider;
+    QSpacerItem *horizontalSpacer_4;
+    QWidget *widget_2;
+    QHBoxLayout *horizontalLayout_2;
+    QSpacerItem *horizontalSpacer_6;
+    QComboBox *comboBox;
+    QSpacerItem *horizontalSpacer_5;
+    QPushButton *select;
+    QSpacerItem *horizontalSpacer_7;
+    QLabel *label_2;
+    QDial *dial;
 
     void setupUi(QWidget *Widget)
     {
@@ -86,7 +104,7 @@ public:
         Widget->resize(994, 678);
         stackedWidget = new QStackedWidget(Widget);
         stackedWidget->setObjectName(QStringLiteral("stackedWidget"));
-        stackedWidget->setGeometry(QRect(20, 30, 391, 401));
+        stackedWidget->setGeometry(QRect(290, 0, 341, 321));
         page_6 = new QWidget();
         page_6->setObjectName(QStringLiteral("page_6"));
         scrollArea = new QScrollArea(page_6);
@@ -95,7 +113,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 145, 291));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 145, 309));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -154,27 +172,31 @@ public:
         toolBox->setGeometry(QRect(50, 40, 241, 191));
         page_3 = new QWidget();
         page_3->setObjectName(QStringLiteral("page_3"));
-        page_3->setGeometry(QRect(0, 0, 241, 80));
+        page_3->setGeometry(QRect(0, 0, 100, 30));
         pushButton_10 = new QPushButton(page_3);
         pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
         pushButton_10->setGeometry(QRect(20, 0, 89, 25));
         toolBox->addItem(page_3, QString::fromUtf8("\345\256\266\344\272\272"));
         page_4 = new QWidget();
         page_4->setObjectName(QStringLiteral("page_4"));
-        page_4->setGeometry(QRect(0, 0, 241, 80));
+        page_4->setGeometry(QRect(0, 0, 100, 30));
         toolButton = new QToolButton(page_4);
         toolButton->setObjectName(QStringLiteral("toolButton"));
         toolButton->setGeometry(QRect(60, 20, 26, 24));
         toolBox->addItem(page_4, QString::fromUtf8("\346\234\213\345\217\213"));
-        page_5 = new QWidget();
-        page_5->setObjectName(QStringLiteral("page_5"));
-        toolBox->addItem(page_5, QString::fromUtf8("\351\273\221\345\220\215\345\215\225"));
+        widget = new QWidget();
+        widget->setObjectName(QStringLiteral("widget"));
+        widget->setGeometry(QRect(0, 0, 241, 71));
+        pushButton_11 = new QPushButton(widget);
+        pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
+        pushButton_11->setGeometry(QRect(70, 10, 100, 27));
+        toolBox->addItem(widget, QString::fromUtf8("\351\273\221\345\220\215\345\215\225"));
         stackedWidget->addWidget(page_7);
         page_8 = new QWidget();
         page_8->setObjectName(QStringLiteral("page_8"));
         tabWidget = new QTabWidget(page_8);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
-        tabWidget->setGeometry(QRect(10, 20, 231, 241));
+        tabWidget->setGeometry(QRect(10, 20, 251, 241));
         tab = new QWidget();
         tab->setObjectName(QStringLiteral("tab"));
         tabWidget->addTab(tab, QString());
@@ -184,65 +206,127 @@ public:
         tab_3 = new QWidget();
         tab_3->setObjectName(QStringLiteral("tab_3"));
         tabWidget->addTab(tab_3, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QStringLiteral("tab_4"));
+        tabWidget->addTab(tab_4, QString());
         stackedWidget->addWidget(page_8);
         btn1 = new QPushButton(Widget);
         btn1->setObjectName(QStringLiteral("btn1"));
-        btn1->setGeometry(QRect(430, 20, 89, 25));
+        btn1->setGeometry(QRect(310, 320, 89, 25));
         QIcon icon;
         icon.addFile(QStringLiteral(":/Image/Luffy.png"), QSize(), QIcon::Normal, QIcon::Off);
         btn1->setIcon(icon);
         btn2 = new QPushButton(Widget);
         btn2->setObjectName(QStringLiteral("btn2"));
-        btn2->setGeometry(QRect(430, 80, 89, 25));
+        btn2->setGeometry(QRect(420, 320, 89, 25));
         btn3 = new QPushButton(Widget);
         btn3->setObjectName(QStringLiteral("btn3"));
-        btn3->setGeometry(QRect(430, 130, 89, 25));
-        comboBox = new QComboBox(Widget);
-        comboBox->setObjectName(QStringLiteral("comboBox"));
-        comboBox->setGeometry(QRect(490, 330, 86, 25));
-        select = new QPushButton(Widget);
-        select->setObjectName(QStringLiteral("select"));
-        select->setGeometry(QRect(610, 330, 89, 25));
-        spinBox = new QSpinBox(Widget);
-        spinBox->setObjectName(QStringLiteral("spinBox"));
-        spinBox->setGeometry(QRect(500, 380, 48, 26));
-        doubleSpinBox = new QDoubleSpinBox(Widget);
-        doubleSpinBox->setObjectName(QStringLiteral("doubleSpinBox"));
-        doubleSpinBox->setGeometry(QRect(610, 380, 69, 26));
+        btn3->setGeometry(QRect(530, 320, 89, 25));
         timeEdit = new QTimeEdit(Widget);
         timeEdit->setObjectName(QStringLiteral("timeEdit"));
-        timeEdit->setGeometry(QRect(460, 440, 118, 26));
+        timeEdit->setGeometry(QRect(40, 500, 118, 26));
         dateEdit = new QDateEdit(Widget);
         dateEdit->setObjectName(QStringLiteral("dateEdit"));
-        dateEdit->setGeometry(QRect(590, 440, 111, 26));
+        dateEdit->setGeometry(QRect(170, 500, 111, 26));
         dateTimeEdit = new QDateTimeEdit(Widget);
         dateTimeEdit->setObjectName(QStringLiteral("dateTimeEdit"));
-        dateTimeEdit->setGeometry(QRect(460, 480, 194, 26));
+        dateTimeEdit->setGeometry(QRect(40, 550, 194, 26));
         horizontalScrollBar = new QScrollBar(Widget);
         horizontalScrollBar->setObjectName(QStringLiteral("horizontalScrollBar"));
-        horizontalScrollBar->setGeometry(QRect(470, 520, 160, 16));
+        horizontalScrollBar->setGeometry(QRect(40, 610, 160, 16));
         horizontalScrollBar->setOrientation(Qt::Horizontal);
         verticalScrollBar = new QScrollBar(Widget);
         verticalScrollBar->setObjectName(QStringLiteral("verticalScrollBar"));
-        verticalScrollBar->setGeometry(QRect(650, 520, 16, 160));
+        verticalScrollBar->setGeometry(QRect(290, 500, 16, 160));
         verticalScrollBar->setOrientation(Qt::Vertical);
-        horizontalSlider = new QSlider(Widget);
-        horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
-        horizontalSlider->setGeometry(QRect(700, 390, 160, 16));
-        horizontalSlider->setOrientation(Qt::Horizontal);
         label = new QLabel(Widget);
         label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(80, 430, 251, 151));
+        label->setGeometry(QRect(690, 370, 261, 291));
         label->setPixmap(QPixmap(QString::fromUtf8(":/Image/Luffy.png")));
         movie = new QLabel(Widget);
         movie->setObjectName(QStringLiteral("movie"));
-        movie->setGeometry(QRect(670, 60, 221, 181));
+        movie->setGeometry(QRect(670, 10, 321, 311));
+        widget1 = new QWidget(Widget);
+        widget1->setObjectName(QStringLiteral("widget1"));
+        widget1->setGeometry(QRect(10, 440, 311, 46));
+        horizontalLayout = new QHBoxLayout(widget1);
+        horizontalLayout->setSpacing(6);
+        horizontalLayout->setContentsMargins(11, 11, 11, 11);
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_3);
+
+        spinBox = new QSpinBox(widget1);
+        spinBox->setObjectName(QStringLiteral("spinBox"));
+
+        horizontalLayout->addWidget(spinBox);
+
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
+        doubleSpinBox = new QDoubleSpinBox(widget1);
+        doubleSpinBox->setObjectName(QStringLiteral("doubleSpinBox"));
+
+        horizontalLayout->addWidget(doubleSpinBox);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
+
+        horizontalSlider = new QSlider(widget1);
+        horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
+        horizontalSlider->setOrientation(Qt::Horizontal);
+
+        horizontalLayout->addWidget(horizontalSlider);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_4);
+
+        widget_2 = new QWidget(Widget);
+        widget_2->setObjectName(QStringLiteral("widget_2"));
+        widget_2->setGeometry(QRect(10, 380, 281, 45));
+        horizontalLayout_2 = new QHBoxLayout(widget_2);
+        horizontalLayout_2->setSpacing(6);
+        horizontalLayout_2->setContentsMargins(11, 11, 11, 11);
+        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_6);
+
+        comboBox = new QComboBox(widget_2);
+        comboBox->setObjectName(QStringLiteral("comboBox"));
+
+        horizontalLayout_2->addWidget(comboBox);
+
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_5);
+
+        select = new QPushButton(widget_2);
+        select->setObjectName(QStringLiteral("select"));
+
+        horizontalLayout_2->addWidget(select);
+
+        horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_2->addItem(horizontalSpacer_7);
+
+        label_2 = new QLabel(Widget);
+        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setGeometry(QRect(380, 380, 281, 281));
+        label_2->setPixmap(QPixmap(QString::fromUtf8(":/Image/Luffy.png")));
+        dial = new QDial(Widget);
+        dial->setObjectName(QStringLiteral("dial"));
+        dial->setGeometry(QRect(60, 40, 211, 271));
 
         retranslateUi(Widget);
 
-        stackedWidget->setCurrentIndex(1);
-        toolBox->setCurrentIndex(0);
-        tabWidget->setCurrentIndex(2);
+        stackedWidget->setCurrentIndex(0);
+        toolBox->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(Widget);
@@ -264,16 +348,19 @@ public:
         toolBox->setItemText(toolBox->indexOf(page_3), QApplication::translate("Widget", "\345\256\266\344\272\272", Q_NULLPTR));
         toolButton->setText(QApplication::translate("Widget", "...", Q_NULLPTR));
         toolBox->setItemText(toolBox->indexOf(page_4), QApplication::translate("Widget", "\346\234\213\345\217\213", Q_NULLPTR));
-        toolBox->setItemText(toolBox->indexOf(page_5), QApplication::translate("Widget", "\351\273\221\345\220\215\345\215\225", Q_NULLPTR));
+        pushButton_11->setText(QApplication::translate("Widget", "PushButton", Q_NULLPTR));
+        toolBox->setItemText(toolBox->indexOf(widget), QApplication::translate("Widget", "\351\273\221\345\220\215\345\215\225", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("Widget", "\347\231\276\345\272\246", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("Widget", "\350\260\267\346\255\214", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "b\347\253\231", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("Widget", "GitHub", Q_NULLPTR));
         btn1->setText(QApplication::translate("Widget", "\347\254\254\344\270\200\351\241\265", Q_NULLPTR));
         btn2->setText(QApplication::translate("Widget", "\347\254\254\344\272\214\351\241\265", Q_NULLPTR));
         btn3->setText(QApplication::translate("Widget", "\347\254\254\344\270\211\351\241\265", Q_NULLPTR));
-        select->setText(QApplication::translate("Widget", "PushButton", Q_NULLPTR));
         label->setText(QString());
         movie->setText(QApplication::translate("Widget", "TextLabel", Q_NULLPTR));
+        select->setText(QApplication::translate("Widget", "PushButton", Q_NULLPTR));
+        label_2->setText(QString());
     } // retranslateUi
 
 };

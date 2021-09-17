@@ -27,19 +27,23 @@ Widget::Widget(QWidget *parent) :
        file.open(QIODevice::ReadOnly);
 
        //一次性读
-       //QByteArray array=file.readAll();
-
-       //一行一行读
-       QByteArray array2;
-       while(!file.atEnd()) //判断是否到文件尾巴
-       {
-           array2+=file.readLine();//按行读取
-       }
+       QByteArray array=file.readAll();
 
        //将读取的数据放入textedit中
-       //ui->textEdit->setText(array);
-       ui->textEdit->setText(array2);
-       //ui->textEdit->setText(codec->toUnicode(array));//转码，将array里面的数据转换为codec指定的格式
+       ui->textEdit->setText(array);
+
+//       //转码，将array里面的数据转换为codec指定的格式
+//       ui->textEdit->setText(codec->toUnicode(array));
+
+//       //一行一行读
+//       QByteArray array2;
+//       while(!file.atEnd()) //判断是否到文件尾巴
+//       {
+//           array2+=file.readLine();//按行读取
+//       }
+
+//       ui->textEdit->setText(array2);
+//       //ui->textEdit->setText(codec->toUnicode(array2));//转码，将array里面的数据转换为codec指定的格式
 
        //关闭文件
        file.close();

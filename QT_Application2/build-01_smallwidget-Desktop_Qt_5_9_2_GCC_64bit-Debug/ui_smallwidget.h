@@ -16,6 +16,7 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QSlider>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QWidget>
 
@@ -25,8 +26,11 @@ class Ui_Smallwidget
 {
 public:
     QHBoxLayout *horizontalLayout;
+    QSpacerItem *horizontalSpacer;
     QSpinBox *spinBox;
+    QSpacerItem *horizontalSpacer_2;
     QSlider *horizontalSlider;
+    QSpacerItem *horizontalSpacer_3;
 
     void setupUi(QWidget *Smallwidget)
     {
@@ -35,16 +39,28 @@ public:
         Smallwidget->resize(226, 55);
         horizontalLayout = new QHBoxLayout(Smallwidget);
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer);
+
         spinBox = new QSpinBox(Smallwidget);
         spinBox->setObjectName(QStringLiteral("spinBox"));
 
         horizontalLayout->addWidget(spinBox);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_2);
 
         horizontalSlider = new QSlider(Smallwidget);
         horizontalSlider->setObjectName(QStringLiteral("horizontalSlider"));
         horizontalSlider->setOrientation(Qt::Horizontal);
 
         horizontalLayout->addWidget(horizontalSlider);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout->addItem(horizontalSpacer_3);
 
 
         retranslateUi(Smallwidget);

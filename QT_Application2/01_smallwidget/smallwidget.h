@@ -14,6 +14,7 @@ class Smallwidget : public QWidget
 public:
     explicit Smallwidget(QWidget *parent = 0);
     ~Smallwidget();
+
     //设置数字
     void setNum(int num);
     //获取数字

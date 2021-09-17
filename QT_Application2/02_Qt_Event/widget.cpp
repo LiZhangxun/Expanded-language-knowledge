@@ -10,7 +10,7 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
     //启动定时器第一种方式
-    id1=startTimer(1000);//参数1 间隔 单位 毫秒
+    id1=startTimer(1000);//参数1:间隔,单位:毫秒
     id2=startTimer(2000);
 
     //启动定时器第二种方式

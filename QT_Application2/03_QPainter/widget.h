@@ -15,7 +15,7 @@ public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
 
-    //绘图事件
+    //绘图事件->在widget窗口中绘图
     void paintEvent(QPaintEvent *event);
 
     int pos=0;

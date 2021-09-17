@@ -54,13 +54,16 @@ public:
         pushButton = new QPushButton(Widget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(40, 60, 89, 25));
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/Image/LuffyQ.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton->setIcon(icon);
         pushButton->setIconSize(QSize(20, 20));
         toolButton = new QToolButton(Widget);
         toolButton->setObjectName(QStringLiteral("toolButton"));
         toolButton->setGeometry(QRect(70, 140, 131, 41));
-        QIcon icon;
-        icon.addFile(QStringLiteral(":/Image/OnePiece.png"), QSize(), QIcon::Normal, QIcon::Off);
-        toolButton->setIcon(icon);
+        QIcon icon1;
+        icon1.addFile(QStringLiteral(":/Image/OnePiece.png"), QSize(), QIcon::Normal, QIcon::Off);
+        toolButton->setIcon(icon1);
         toolButton->setIconSize(QSize(32, 32));
         toolButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
         toolButton->setAutoRaise(true);
@@ -73,6 +76,8 @@ public:
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         radioButton = new QRadioButton(groupBox);
         radioButton->setObjectName(QStringLiteral("radioButton"));
+        radioButton->setCheckable(true);
+        radioButton->setChecked(true);
 
         verticalLayout->addWidget(radioButton);
 
@@ -100,7 +105,7 @@ public:
 
         groupBox_3 = new QGroupBox(Widget);
         groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
-        groupBox_3->setGeometry(QRect(70, 300, 109, 178));
+        groupBox_3->setGeometry(QRect(70, 300, 117, 192));
         verticalLayout_3 = new QVBoxLayout(groupBox_3);
         verticalLayout_3->setSpacing(6);
         verticalLayout_3->setContentsMargins(11, 11, 11, 11);

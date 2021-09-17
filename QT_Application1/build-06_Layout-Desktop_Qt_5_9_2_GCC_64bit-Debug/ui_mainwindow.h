@@ -62,6 +62,9 @@ public:
         MainWindow->resize(350, 240);
         MainWindow->setMinimumSize(QSize(350, 240));
         MainWindow->setMaximumSize(QSize(350, 240));
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/Image/OnePiece.png"), QSize(), QIcon::Normal, QIcon::Off);
+        MainWindow->setWindowIcon(icon);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         gridLayout_2 = new QGridLayout(centralWidget);
@@ -144,9 +147,9 @@ public:
 
         pushButton = new QPushButton(widget_3);
         pushButton->setObjectName(QStringLiteral("pushButton"));
-        QIcon icon;
-        icon.addFile(QStringLiteral(":/Image/butterfly.png"), QSize(), QIcon::Normal, QIcon::Off);
-        pushButton->setIcon(icon);
+        QIcon icon1;
+        icon1.addFile(QStringLiteral(":/Image/butterfly.png"), QSize(), QIcon::Normal, QIcon::Off);
+        pushButton->setIcon(icon1);
 
         horizontalLayout_3->addWidget(pushButton);
 
@@ -156,9 +159,9 @@ public:
 
         pushButton_2 = new QPushButton(widget_3);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        QIcon icon1;
-        icon1.addFile(QStringLiteral(":/Image/Luffy.png"), QSize(), QIcon::Normal, QIcon::On);
-        pushButton_2->setIcon(icon1);
+        QIcon icon2;
+        icon2.addFile(QStringLiteral(":/Image/Luffy.png"), QSize(), QIcon::Normal, QIcon::On);
+        pushButton_2->setIcon(icon2);
 
         horizontalLayout_3->addWidget(pushButton_2);
 
